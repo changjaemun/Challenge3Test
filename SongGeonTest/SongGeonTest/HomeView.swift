@@ -12,10 +12,10 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Image(systemName: "house.fill")
+                Image(systemName: "eraser")
                     .imageScale(.large)
                     .foregroundStyle(.blue)
-                Text("홈")
+                Text("이토")
                     .font(.title)
             }
             .navigationTitle("홈")
