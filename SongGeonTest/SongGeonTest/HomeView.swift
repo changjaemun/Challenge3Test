@@ -15,7 +15,7 @@ struct HomeView: View {
                 Image(systemName: "eraser")
                     .imageScale(.large)
                     .foregroundStyle(.blue)
-                Text("이토")
+                Text("이토, 이토, 체셔, 엘피")
                     .font(.title)
             }
             .navigationTitle("홈")
