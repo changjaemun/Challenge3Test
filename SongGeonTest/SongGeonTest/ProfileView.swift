@@ -14,7 +14,7 @@ struct ProfileView: View {
                 Image(systemName: "person.fill")
                     .imageScale(.large)
                     .foregroundStyle(.orange)
-                Text("젠")
+                Text("!")
                     .font(.title)
             }
             .navigationTitle("프로필")
