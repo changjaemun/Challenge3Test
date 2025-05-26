@@ -16,8 +16,15 @@ struct SettingsView: View {
                     .foregroundStyle(.gray)
                 Text("설정")
                     .font(.title)
+                Text("조체셔의 페이지")
+                    .font(.subheadline)
             }
             .navigationTitle("설정")
         }
     }
+}
+
+
+#Preview {
+    SettingsView()
 }
