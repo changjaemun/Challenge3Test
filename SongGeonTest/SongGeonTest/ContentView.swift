@@ -7,66 +7,6 @@
 
 import SwiftUI
 
-struct HomeView: View {
-    var body: some View {
-        NavigationView {
-            VStack {
-                Image(systemName: "house.fill")
-                    .imageScale(.large)
-                    .foregroundStyle(.blue)
-                Text("홈")
-                    .font(.title)
-            }
-            .navigationTitle("홈")
-        }
-    }
-}
-
-struct SearchView: View {
-    var body: some View {
-        NavigationView {
-            VStack {
-                Image(systemName: "magnifyingglass")
-                    .imageScale(.large)
-                    .foregroundStyle(.green)
-                Text("검색")
-                    .font(.title)
-            }
-            .navigationTitle("검색")
-        }
-    }
-}
-
-struct ProfileView: View {
-    var body: some View {
-        NavigationView {
-            VStack {
-                Image(systemName: "person.fill")
-                    .imageScale(.large)
-                    .foregroundStyle(.orange)
-                Text("프로필")
-                    .font(.title)
-            }
-            .navigationTitle("프로필")
-        }
-    }
-}
-
-struct SettingsView: View {
-    var body: some View {
-        NavigationView {
-            VStack {
-                Image(systemName: "gear")
-                    .imageScale(.large)
-                    .foregroundStyle(.gray)
-                Text("설정")
-                    .font(.title)
-            }
-            .navigationTitle("설정")
-        }
-    }
-}
-
 struct ContentView: View {
     @State private var selectedTab = 0
 
