@@ -16,6 +16,16 @@
 			path = SongGeonTest;
 			sourceTree = "<group>";
 		};
+		FF1313292DE6EE6E00267C71 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF13132A2DE6EE7500267C71 /* System */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = System;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,8 @@
 		A16D1B852DE407C10055A241 = {
 			isa = PBXGroup;
 			children = (
+				FF13132A2DE6EE7500267C71 /* System */,
+				FF1313292DE6EE6E00267C71 /* Resources */,
 				A16D1B902DE407C10055A241 /* SongGeonTest */,
 				A16D1B8F2DE407C10055A241 /* Products */,
 			);
@@ -62,6 +74,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A16D1B902DE407C10055A241 /* SongGeonTest */,
+				FF1313292DE6EE6E00267C71 /* Resources */,
+				FF13132A2DE6EE7500267C71 /* System */,
 			);
 			name = SongGeonTest;
 			packageProductDependencies = (
